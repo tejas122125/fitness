@@ -7,7 +7,9 @@ import Mycomponent from './Mycomponent'
 const App = () => {
   localStorage.setItem('count', 0);
   return (
-    <div className='h-screen w-screen bg-green-500'><Mycomponent/></div>
+    <div className='h-screen w-screen bg-green-500'>
+      <Mycomponent/>
+    </div>
   )
 }
 
